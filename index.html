@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+
+  <style>
+    body {
+      background-image: url("bg.jpg");
+      background-size: cover;
+      color: #fff;
+    }
+
+    .login {
+      margin-top: 100px;
+    }
+
+    .login .card {
+      background: rgba(0, 0, 0, .6);
+      border-radius: 35px;
+    }
+
+    .login label {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    .login input {
+      font-size: 22px !important;
+      color: #fff;
+    }
+
+    .login button {
+      border-radius: 10px;
+    }
+
+    .login button:hover {
+      padding: 0px 40px
+    }
+
+    @media only screen and (max-width: 400px) {
+ 
+      .login h3 {
+        font-size: 22px !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row login">
+      <div class="col s12 offset-14">
+        <div class="card">
+          <div class="card-action brown darken-4 white-text center-align">
+            <h3>Login Form by Niko</h3>
+          </div>
+
+          <div class="card-content">
+            <div class="form-field">
+              <label for="username">Username</label>
+              <input type="text" id="username">
+            </div>
+            <br>
+            <div class="form-field">
+              <label for="password">Password</label>
+              <input type="password" id="password">
+            </div>
+            <br>
+            <div class="form-field">
+              <label>
+                <input type="checkbox" class="filled-in" id="remember" />
+                <span>Remember me</span>
+              </label>
+            </div>
+            <br>
+            <div class="form-field center-align">
+              <button class="btn-large brown darken-4 waves-effect waves-light">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+</body>
+
+</html>
